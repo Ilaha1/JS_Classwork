@@ -31,45 +31,47 @@ console.log(newArr4);
 
 // 5.Find index of first 'r' (excepting 'are').  // 9
 
-// text.indexOf("r",1).toLowerCase.text.find((el)=>el[el.length-1==="r"])
-// console.log(newArr4);
+newText=text.toLocaleLowerCase().indexOf("r",5)
+console.log(newText);
 
 
 // 6.Find out vowels in 'text' and add them to 'newArr' which contains unique values. //['e','a','o']
-// let vowels = ['a', 'i', 'o', 'u', 'e']
-// newArr=[]
-//  if(vowels.includes(text[i]).true?newArr.push(i):newArr)
-//  console.log(newArr);
+let vowels = ['a', 'i', 'o', 'u', 'e']
+const result=text.split("").filter((item,index,arr)=>vowels.includes(item)&& arr.indexOf(item)===index) 
+ console.log( result);
 
 
 // 3.Write a function(arrow function) called 'calcArea()' which to calculate sum region's area,
 //  if region's length is equal to 6 in 'arr2'.
-// const arr3 = [
-//     {
-//         region: 'Yasamal',
-//         area: 170,
-//     },
+const arr3 = [
+    {
+        region: 'Yasamal',
+        area: 170,
+    },
 
-//     {
-//         region: 'Nizami',
-//         area: 20,
-//     },
+    {
+        region: 'Nizami',
+        area: 20,
+    },
 
-//     {
-//         region: 'Nesimi',
-//         area: 10,
-//     },
+    {
+        region: 'Nesimi',
+        area: 10,
+    },
 
-//     {
-//         region: 'Sebail',
-//         area: 30,
-//     },
-//     {
-//         region: 'Xetai',
-//         area: 30,
-//     },
+    {
+        region: 'Sebail',
+        area: 30,
+    },
+    {
+        region: 'Xetai',
+        area: 30,
+    },
 
-// ]
+]
+
+
+
 
 // console.log: (60)
 
@@ -87,8 +89,6 @@ const colors = ['green', 'blue', 'yellow', 'black', 'red', 'brown', 'white', 'gr
 
 // console.log: ['red', 'blue', 'gray', 'pink', 'black', 'brown', 'green', 'white', 'violet', 'yellow']
 
-colors
-console.log(colors.length === 3, 4 ? sort() : sort);
-
+console.log(colors.sort((a,b)=>a.length-b.length ||a.localeCompare(b)));        
 
 
