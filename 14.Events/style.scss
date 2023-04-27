@@ -1,0 +1,18 @@
+.section{
+  height: 95vh;
+
+  .form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    height: 100%;
+    border: 1px dashed;
+  }
+
+  #labelcheck {
+  visibility: hidden;
+}
+
+}
