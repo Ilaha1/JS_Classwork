@@ -1,0 +1,38 @@
+<<<<<<< HEAD
+.section {
+    height: 95vh;
+
+    .form {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 10px;
+        height: 100%;
+        border: 1px dashed;
+    }
+
+    #labelcheck {
+        visibility: hidden;
+    }
+
+=======
+.section{
+  height: 95vh;
+
+  .form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    height: 100%;
+    border: 1px dashed;
+  }
+
+  #labelcheck {
+  visibility: hidden;
+}
+
+>>>>>>> 678c2b64c3345d247bafab44621b57239ee38a8d
+}
