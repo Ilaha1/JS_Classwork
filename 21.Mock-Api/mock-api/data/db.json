@@ -1,0 +1,10 @@
+{
+    "blogs": [
+        {
+            "id":1,
+            "auther":"Guliyeva",
+            "content":"Lorem ipsum dolor",
+            "title":"text"
+        }
+    ]
+}
