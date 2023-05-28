@@ -1,0 +1,276 @@
+header {
+  position: fixed;
+  transition: 0.5;
+  z-index: 1;
+  width: 100%;
+  background-color: white;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+header .header_top nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  list-style: none;
+}
+header .header_top nav ul .logo,
+header .header_top nav ul .li:hover {
+  cursor: pointer;
+}
+header .header_top nav ul .fa-solid {
+  border: 1px solid orangered;
+  padding: 25px;
+  background-color: orangered;
+}
+header .header_mobile {
+  display: none;
+}
+@media only screen and (max-width: 992px) {
+  header .header_top nav ul li {
+    display: none;
+  }
+  header .header_top nav .header_mobile {
+    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+  }
+  header .header_top nav .header_mobile .fa-solid {
+    color: orangered;
+  }
+}
+header .header_bottom nav .ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  font-size: 15px;
+}
+header .header_bottom nav .ul li:hover {
+  cursor: pointer;
+  color: orangered;
+}
+@media only screen and (max-width: 992px) {
+  header .header_bottom nav {
+    display: none;
+  }
+}
+
+.hero-banner .banner .hero_text {
+  position: relative;
+  bottom: 450px;
+  text-align: center;
+  color: white;
+}
+.hero-banner .banner .hero_text h2 {
+  font-size: 56px;
+}
+.hero-banner .hero_img {
+  height: 100vh;
+  width: 98%;
+}
+@media only screen and (max-width: 992px) {
+  .hero-banner .hero_img {
+    margin-top: 70px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh;
+    width: 150%;
+  }
+}
+
+.care_about .care_about_text {
+  text-align: center;
+}
+.care_about .care_about_text h2 {
+  font-weight: 800;
+}
+.care_about .care_about_img {
+  text-align: center;
+}
+.care_about .care_about_img p {
+  color: gray;
+  font-size: 12px;
+}
+.care_about .care_about_img .col_1 {
+  border: 1px solid white;
+  border-radius: 5px;
+  width: 280px;
+  margin: 10px;
+  box-shadow: 0px 20px 60px 0px rgba(246, 33, 75, 0.3);
+}
+.care_about .sort {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 600px;
+}
+
+header {
+  position: fixed;
+  transition: 0.5;
+  z-index: 1;
+  width: 100%;
+  background-color: white;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+header .header_top nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  list-style: none;
+}
+header .header_top nav ul .logo,
+header .header_top nav ul .li:hover {
+  cursor: pointer;
+}
+header .header_top nav ul .fa-solid {
+  border: 1px solid orangered;
+  padding: 25px;
+  background-color: orangered;
+}
+header .header_mobile {
+  display: none;
+}
+@media only screen and (max-width: 992px) {
+  header .header_top nav ul li {
+    display: none;
+  }
+  header .header_top nav .header_mobile {
+    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+  }
+  header .header_top nav .header_mobile .fa-solid {
+    color: orangered;
+  }
+}
+header .header_bottom nav .ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  font-size: 15px;
+}
+header .header_bottom nav .ul li:hover {
+  cursor: pointer;
+  color: orangered;
+}
+@media only screen and (max-width: 992px) {
+  header .header_bottom nav {
+    display: none;
+  }
+}
+
+.detail_cards {
+  height: 40vh;
+  position: relative;
+  top: 130px;
+  left: 0;
+}
+
+.courses {
+  position: relative;
+}
+.courses .top h4 {
+  border: 1px solid #f6214b;
+  background-color: #f6214b;
+  width: 160px;
+  padding: 6px 0;
+  color: white;
+  font-size: 14px;
+  position: relative;
+  bottom: 60px;
+  left: 13px;
+}
+.courses .top h5 {
+  font-size: 16px;
+}
+.courses .top .div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.courses .top .div p {
+  color: red;
+}
+@media only screen and (max-width: 992px) {
+  .courses .top_text h2 {
+    font-size: 36px;
+  }
+}
+
+.huge_transaction h3,
+.huge_transaction p,
+.huge_transaction button {
+  position: relative;
+  bottom: 300px;
+  left: 200px;
+  color: white;
+}
+.huge_transaction button {
+  border-radius: 15px;
+  background-color: #f6214b;
+}
+.huge_transaction button:hover {
+  background-color: white;
+  color: #f6214b;
+}
+.huge_transaction .huge_img {
+  height: 60vh;
+  width: 98%;
+}
+@media only screen and (max-width: 992px) {
+  .huge_transaction .huge_img {
+    width: 150%;
+    height: 50vh;
+    position: absolute;
+    right: 20px;
+  }
+  .huge_transaction .huge_text,
+  .huge_transaction button {
+    position: relative;
+    top: 120px;
+    right: 300px;
+  }
+}
+
+footer {
+  height: 10vh;
+}
+footer .footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 6px;
+}
+footer .footer .footer_icon {
+  cursor: pointer;
+}
+footer p a {
+  color: #f6214b;
+  list-style: none;
+  text-decoration: none;
+}
+@media only screen and (max-width: 992px) {
+  footer .footer {
+    display: flex;
+    flex-direction: column;
+    height: 50vh;
+  }
+}/*# sourceMappingURL=main.css.map */

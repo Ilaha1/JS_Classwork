@@ -1,0 +1,47 @@
+.courses {
+ 
+    position: relative;
+  
+
+    .top {
+        h4 {
+            border: 1px solid #f6214b;
+            background-color: #f6214b;
+            width: 160px;
+            padding: 6px 0;
+            color: white;
+            font-size: 14px;
+            position: relative;
+            bottom: 60px;
+            left: 13px;
+
+        }
+    }
+
+    .top {
+        h5 {
+            font-size: 16px;
+        }
+
+        .div {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            p {
+                color: red;
+
+            }
+        }
+    }
+
+    @media only screen and (max-width:992px) {
+        .top_text {
+            h2 {
+                font-size: 36px;
+            }
+        }
+
+    }
+
+}

@@ -1,0 +1,36 @@
+.care_about {
+  
+
+    .care_about_text {
+        text-align: center;
+
+        h2 {
+            font-weight: 800;
+        }
+    }
+
+    .care_about_img {
+        text-align: center;
+
+        p {
+            color: gray;
+            font-size: 12px;
+        }
+
+        .col_1 {
+            border: 1px solid white;
+            border-radius: 5px;
+            width: 280px;
+            margin: 10px;
+            box-shadow: 0px 20px 60px 0px rgba(246, 33, 75, 0.3);
+        }
+
+    }
+
+    .sort {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 600px;
+    }
+}

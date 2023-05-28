@@ -1,0 +1,106 @@
+header {
+    position: fixed;
+    transition: 0.5;
+    z-index: 1;
+    width: 100%;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: "Poppins",
+        sans-serif;
+
+    .header_top {
+        nav {
+            ul {
+                display: flex;
+                align-items: center;
+                justify-content: space-around;
+                list-style: none;
+
+                .logo,
+                .li:hover {
+                    cursor: pointer;
+                }
+
+                .fa-solid {
+                    border: 1px solid orangered;
+                    padding: 25px;
+                    background-color: orangered;
+                }
+            }
+        }
+
+
+    }
+
+    .header_mobile {
+        display: none;
+    }
+
+
+    @media only screen and (max-width:992px) {
+        .header_top nav ul li {
+            display: none;
+        }
+
+        .header_top nav {
+            .header_mobile {
+                display: block;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: 150px;
+
+                .fa-solid {
+                    color: orangered;
+                }
+
+            }
+
+        }
+    }
+
+
+
+    .header_bottom {
+        nav {
+            .ul {
+                list-style: none;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                gap: 20px;
+                font-size: 15px;
+            }
+
+            .ul li:hover {
+                cursor: pointer;
+                color: orangered;
+            }
+
+        }
+
+
+    }
+
+  
+
+    @media only screen and (max-width:992px) {
+        .header_bottom {
+            nav {
+                display: none;
+            }
+        }
+    }
+
+}
+  .detail_cards {
+    height: 40vh;
+      position: relative;
+      top: 130px;
+      left: 0;
+
+  }

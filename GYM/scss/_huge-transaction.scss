@@ -1,0 +1,42 @@
+.huge_transaction {
+
+   h3,
+   p,
+   button {
+      position: relative;
+      bottom: 300px;
+      left: 200px;
+      color: white;
+
+   }
+
+   button {
+      border-radius: 15px;
+      background-color: #f6214b;
+   }
+
+   button:hover {
+      background-color: white;
+      color: #f6214b;
+   }
+   .huge_img{
+      height: 60vh;
+      width: 98%;
+   }
+
+   @media only screen and (max-width:992px) {
+      .huge_img {
+         width: 150%;
+         height: 50vh;
+         position: absolute;
+         right: 20px;
+      }
+
+      .huge_text,
+      button {
+         position: relative;
+         top: 120px;
+         right: 300px;
+      }
+   }
+}

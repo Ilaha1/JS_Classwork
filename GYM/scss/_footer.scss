@@ -1,0 +1,30 @@
+footer {
+    height: 10vh;
+
+    .footer {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 6px;
+
+        .footer_icon {
+            cursor: pointer;
+        }
+    }
+
+    p {
+        a {
+            color: #f6214b;
+            list-style: none;
+            text-decoration: none;
+        }
+    }
+
+    @media only screen and (max-width:992px) {
+        .footer {
+            display: flex;
+            flex-direction: column;
+            height: 50vh;
+        }
+    }
+}
